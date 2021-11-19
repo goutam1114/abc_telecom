@@ -16,6 +16,10 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { CreateComponent } from './components/product/create/create.component';
 import { UpdateComponent } from './components/product/update/update.component';
 import { DeleteComponent } from './components/product/delete/delete.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CustomerComponent } from './components/customer/customer.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { EngineerComponent } from './components/engineer/engineer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { DeleteComponent } from './components/product/delete/delete.component';
     NotfoundComponent,
     CreateComponent,
     UpdateComponent,
-    DeleteComponent
+    DeleteComponent,
+    ContactComponent,
+    CustomerComponent,
+    AdminComponent,
+    EngineerComponent
   ],
   imports: [
     BrowserModule,

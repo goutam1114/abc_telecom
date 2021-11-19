@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-create',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
+  public x:string="goutam@gmail.com";
 
   ngOnInit(): void {
   }
+  public onSubmit(){
+    this.router.navigateByUrl("/customer");
+   
+    
 
-}
+
+  }
+  }
+
+
